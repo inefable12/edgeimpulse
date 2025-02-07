@@ -40,11 +40,11 @@ elif selected_tab == "Aplicaciones":
     """)
     
     # Cargar imagen desde GitHub
-    image_url = GITHUB_BASE_URL + "imagen2.jpg"
-    st.image(image_url, caption="Aplicaciones de Edge Impulse", use_column_width=True)
+    #image_url = GITHUB_BASE_URL + "imagen2.jpg"
+    #st.image(image_url, caption="Aplicaciones de Edge Impulse", use_column_width=True)
     
     # Enlace a ejemplos reales
-    st.markdown("[Ver casos de éxito en Edge Impulse](https://www.edgeimpulse.com/use-cases)")
+    #st.markdown("[Ver casos de éxito en Edge Impulse](https://www.edgeimpulse.com/use-cases)")
 
 elif selected_tab == "Tutorial":
     st.title("Tutorial: Creando un modelo en EDGE IMPULSE")
