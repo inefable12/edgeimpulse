@@ -25,8 +25,8 @@ if selected_tab == "Introducción":
     """)
     
     # Cargar imagen desde GitHub
-    image_url = GITHUB_BASE_URL + "imagen1.png"
-    st.image(image_url, caption="TinyML con Edge Impulse", use_column_width=True)
+    #image_url = GITHUB_BASE_URL + "imagen1.png"
+    #st.image(image_url, caption="TinyML con Edge Impulse", use_column_width=True)
 
 elif selected_tab == "Aplicaciones":
     st.title("Aplicaciones de EDGE IMPULSE")
