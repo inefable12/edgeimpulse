@@ -32,13 +32,21 @@ elif selected_tab == "Aplicaciones":
     st.title("Aplicaciones de EDGE IMPULSE")
     st.image("imagenes/imagen3.png")
     st.write("""
-    Edge Impulse se usa en diversos campos, incluyendo:
-    - **Dispositivos de salud**: Monitoreo de signos vitales con sensores portátiles.
-    - **Agricultura de precisión**: Detección de plagas mediante visión artificial.
-    - **Automatización industrial**: Mantenimiento predictivo en máquinas industriales.
-    - **Seguridad**: Identificación de sonidos anómalos en ambientes urbanos.
-    """)
+    Actividad: Aborda una problemática que identificas y empatiza con ella, a continuación identifica:
     
+    - **el sensor asociado**, 
+    - **la aplicación en salud**, y 
+    - **el área en salud**     
+    """)
+
+#    Edge Impulse se usa en diversos campos, incluyendo:
+#    - **Dispositivos de salud**: Monitoreo de signos vitales con sensores portátiles.
+#    - **Agricultura de precisión**: Detección de plagas mediante visión artificial.
+#    - **Automatización industrial**: Mantenimiento predictivo en máquinas industriales.
+#    - **Seguridad**: Identificación de sonidos anómalos en ambientes urbanos.
+
+
+
     # Cargar imagen desde GitHub
     #image_url = GITHUB_BASE_URL + "imagen2.jpg"
     #st.image(image_url, caption="Aplicaciones de Edge Impulse", use_column_width=True)
