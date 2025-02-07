@@ -30,6 +30,7 @@ if selected_tab == "Introducción":
 
 elif selected_tab == "Aplicaciones":
     st.title("Aplicaciones de EDGE IMPULSE")
+    st.image("imagenes/imagen3.png")
     st.write("""
     Edge Impulse se usa en diversos campos, incluyendo:
     - **Dispositivos de salud**: Monitoreo de signos vitales con sensores portátiles.
