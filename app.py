@@ -3,7 +3,6 @@ from PIL import Image
 
 # Configuración de la página
 st.set_page_config(page_title="EDGE IMPULSE", layout="wide")
-st.image("imagenes/image1.png")
 
 # Pestañas
 tabs = ["Introducción", "Aplicaciones", "Tutorial"]
@@ -15,6 +14,7 @@ GITHUB_BASE_URL = "https://github.com/inefable12/edgeimpulse/tree/main/imagenes/
 
 if selected_tab == "Introducción":
     st.title("Introducción a EDGE IMPULSE")
+    st.image("imagenes/image1.png")
     st.write("""
     Edge Impulse es una plataforma que permite el desarrollo de modelos de Machine Learning embebido, 
     conocida como **TinyML**. TinyML permite ejecutar modelos de inteligencia artificial en dispositivos 
