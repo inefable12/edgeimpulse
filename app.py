@@ -3,6 +3,7 @@ from PIL import Image
 
 # Configuración de la página
 st.set_page_config(page_title="EDGE IMPULSE", layout="wide")
+st.image("imagenes/image1.png")
 
 # Pestañas
 tabs = ["Introducción", "Aplicaciones", "Tutorial"]
